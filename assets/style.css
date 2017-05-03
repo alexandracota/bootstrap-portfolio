@@ -1,0 +1,22 @@
+body { 
+	padding-top: 70px;
+	margin: 0 auto;
+}
+
+img {
+	padding: 20px 0px;
+}
+
+.form-horizontal {
+	float: left;
+}
+
+.side-panel {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+}
