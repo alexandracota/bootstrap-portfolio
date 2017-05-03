@@ -1,10 +1,21 @@
 body { 
 	padding-top: 70px;
-	margin: 0 auto;
+
 }
 
-img {
-	padding: 20px 0px;
+h2 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+.container {
+	margin: 0 auto;
 }
 
 .form-horizontal {
@@ -18,5 +29,24 @@ img {
 }
 
 .footer {
+	position: absolute;
+	bottom: 0;
+	color: white;
+	background: gray;
+	font-size: 24px;
+	height: 20px;
+	width: 100%;
+	overflow: hidden;
+	margin: 20 auto;
 	text-align: center;
+	padding: 20px;
+	clear: both;
+}
+
+.navbar-fixed-top {
+	background-color: #4aaaa5;
+}
+
+.panel-heading {
+	background-color: #4aaaa5;
 }
