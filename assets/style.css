@@ -14,12 +14,17 @@ h3 {
 	color: #4aaaa5;
 }
 
+.row {
+	margin-bottom: 100px;
+}
+
 .container {
 	margin: 0 auto;
 }
 
 .form-horizontal {
 	float: left;
+	width: 100%;
 }
 
 .side-panel {
@@ -29,11 +34,10 @@ h3 {
 }
 
 .footer {
-	position: absolute;
+	position: fixed;
 	bottom: 0;
-	color: white;
-	background: gray;
-	font-size: 24px;
+	background: lightgray;
+	font-size: 16px;
 	height: 20px;
 	width: 100%;
 	overflow: hidden;
